@@ -29,7 +29,25 @@ namespace Musk_Assisgnment
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            Safety_Audit_Form_2 newSafetyAuditForm2 = new Safety_Audit_Form_2();
+            this.Hide();
+            newSafetyAuditForm2.ShowDialog();
+            this.Show();
+        }
+
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void textBox11_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

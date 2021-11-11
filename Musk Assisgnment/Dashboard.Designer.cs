@@ -30,12 +30,12 @@ namespace Musk_Assisgnment
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -47,58 +47,8 @@ namespace Musk_Assisgnment
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(163, 486);
+            this.panel1.Size = new System.Drawing.Size(163, 644);
             this.panel1.TabIndex = 4;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.label1.Location = new System.Drawing.Point(367, 23);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(270, 55);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "Dashboard";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(332, 143);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(336, 51);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "Safety Audit Form";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(332, 234);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(336, 51);
-            this.button2.TabIndex = 7;
-            this.button2.Text = "List Of Inspection";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(332, 326);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(336, 51);
-            this.button3.TabIndex = 8;
-            this.button3.Text = "Balanced Scorecard";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(788, 437);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(84, 37);
-            this.button4.TabIndex = 9;
-            this.button4.Text = "Log Out";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // pictureBox1
             // 
@@ -110,12 +60,62 @@ namespace Musk_Assisgnment
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.label1.Location = new System.Drawing.Point(570, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(270, 55);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "Dashboard";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(536, 177);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(336, 51);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "Safety Audit Form";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(536, 290);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(336, 51);
+            this.button2.TabIndex = 7;
+            this.button2.Text = "List Of Inspection";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(536, 409);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(336, 51);
+            this.button3.TabIndex = 8;
+            this.button3.Text = "Balanced Scorecard";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(1171, 595);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(84, 37);
+            this.button4.TabIndex = 9;
+            this.button4.Text = "Log Out";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
             // Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(53)))), ((int)(((byte)(71)))));
-            this.ClientSize = new System.Drawing.Size(884, 486);
+            this.ClientSize = new System.Drawing.Size(1267, 644);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
